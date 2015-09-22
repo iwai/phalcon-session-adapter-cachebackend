@@ -1,0 +1,15 @@
+{
+    "name": "iwai/phalcon-session-adapter-cachebackend",
+    "type": "library",
+    "description": "CacheBackend adapter for session.",
+    "keywords": [ "phalcon" ],
+    "homepage": "https://github.com/iwai/phalcon-session-adapter-cachebackend",
+    "license": "MIT",
+    "authors": [
+        { "name":"Yuji Iwai", "email":"iwai.ug@gmail.com" }
+    ],
+    "autoload": {
+        "psr-0": { "Iwai\\Phalcon\\Session\\Adapter\\": "" }
+    },
+    "target-dir": "Iwai/Phalcon/Session/Adapter"
+}
