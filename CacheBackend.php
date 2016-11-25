@@ -93,7 +93,7 @@ class CacheBackend extends BaseAdapter implements AdapterInterface {
      */
     public function _read($id)
     {
-        return $this->read_cache[$id] = $this->backend->get($id);
+        return $this->read_cache[$id] = (string)$this->backend->get($id);
     }
 
     /**
